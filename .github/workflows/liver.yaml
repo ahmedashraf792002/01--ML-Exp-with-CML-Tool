@@ -27,9 +27,7 @@ jobs:
           echo "## Correlation" >> report.md
           echo "![](Correlation.png)" >> report.md
           echo "## Confusion Matrix" >> report.md
-          echo "![](Confusion_Matrix_for_XGBClassifier_without_Class_Weight.png)" >> report.md
-          echo "![](Confusion_Matrix_for_XGBClassifier_with_Class_Weight.png)" >> report.md
+          echo "![](conf_matrix.png)" >> report.md
           echo "## Roc Curve" >> report.md
-          echo "![](XGBClassifier_without_Class_Weight_Roc_Curve.png)" >> report.md
-          echo "![](XGBClassifier_with_Class_Weight_Roc_Curve.png)" >> report.md
+          echo "![](roc_curve.png)" >> report.md
           cml comment create report.md
