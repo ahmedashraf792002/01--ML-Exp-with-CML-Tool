@@ -3,7 +3,7 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pickle as pk
+import joblib
 import os
 from PIL import Image
 # Libraries for Machine Learning
